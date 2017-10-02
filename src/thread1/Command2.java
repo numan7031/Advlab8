@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Command2 {
 public static void main(String args[]) {
+@SuppressWarnings("resource")
 Scanner input = new Scanner(System.in);
 double balance;
 double[] deposit = new double[2];
