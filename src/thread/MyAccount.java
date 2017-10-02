@@ -1,6 +1,6 @@
 package thread;
 
-import java.util.Scanner;
+
 
 class MyAccount {
 	public static double balance = 0;

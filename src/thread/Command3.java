@@ -30,12 +30,13 @@ public class Command3 {
 		int i, thread;
 		long startTime = System.currentTimeMillis();
 
-		Scanner in = new Scanner(System.in);
+		@SuppressWarnings("resource")
+		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter the Number (N) : ");
-		max = in.nextLong();
+		max = input.nextLong();
 		System.out.print("Enter the Amount of Thread (M) : ");
-		thread = in.nextInt();
+		thread = input.nextInt();
 
 		test[] a = new test[thread];
 
