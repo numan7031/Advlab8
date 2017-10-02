@@ -122,7 +122,7 @@ public class Command1 {
 
 			s1 = num / 29.99;
 			sum1 = String.format("%.2f", s1);
-			output1 = "=" + sum1 + "\tUSA\n";
+			output1 = "=" + sum1 + "\tUSD\n";
 			textPane1.setText(output1);
 
 			s1 = num / 42.75;
@@ -310,7 +310,7 @@ public class Command1 {
 
 			s1 = num * 42.75 / 29.99;
 			sum1 = String.format("%.2f", s1);
-			output1 = output1 + "=" + sum1 + "\tEUR\n";
+			output1 = output1 + "=" + sum1 + "\tUSD\n";
 			textPane3.setText(output1);
 
 			s1 = num * 42.75 / 39.03;
