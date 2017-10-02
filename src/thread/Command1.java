@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextPane;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -58,6 +59,7 @@ public class Command1 {
 		button2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.setVisible(false);
+				frame.dispose();
 			}
 		});
 		button2.setBounds(257, 10, 89, 23);
@@ -101,6 +103,8 @@ public class Command1 {
 				eur.start();
 			}
 		});
+		frame.getRootPane().setDefaultButton(button1);
+		button1.requestFocus();
 		button1.setBounds(143, 10, 89, 23);
 		frame.getContentPane().add(button1);
 
